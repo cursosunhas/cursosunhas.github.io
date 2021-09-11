@@ -1,0 +1,66 @@
+.chat-circle-min-fill {
+    width: 74px;
+    height: 74px;
+    top: 58px;
+    left: 58px;
+    position: absolute;
+    background-color: #000;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    opacity: .1;
+    -webkit-animation: circle-fill-anim 2.3s infinite ease-in-out;
+     -moz-animation: circle-fill-anim 2.3s infinite ease-in-out;
+    -ms-animation: circle-fill-anim 2.3s infinite ease-in-out;
+    -o-animation: circle-fill-anim 2.3s infinite ease-in-out;
+    animation: circle-fill-anim 2.3s infinite ease-in-out;
+     -webkit-transition: all .5s;
+     -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.chat-circle {
+    width: 110px;
+    height: 110px;
+    top: 40px;
+    left: 40px;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid rgba(30,30,30,.4);
+    opacity: .1;
+    -webkit-animation: cbh-circle-anim 1.2s infinite ease-in-out;
+    -moz-animation: cbh-circle-anim 1.2s infinite ease-in-out;
+    -ms-animation: cbh-circle-anim 1.2s infinite ease-in-out;
+    -o-animation: cbh-circle-anim 1.2s infinite ease-in-out;
+    animation: cbh-circle-anim 1.2s infinite ease-in-out;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+@-moz-keyframes circle-fill-anim{
+    0%{-moz-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}
+    50%{-moz-transform:rotate(0deg) -moz-scale(1) skew(1deg);opacity:.2}
+    100%{-moz-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}
+}
+@-webkit-keyframes circle-fill-anim{
+    0%{-webkit-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}
+    50%{-webkit-transform:rotate(0deg) scale(1) skew(1deg);opacity:.2}
+    100%{-webkit-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}
+}
+@-o-keyframes circle-fill-anim{
+    0%{-o-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}
+    50%{-o-transform:rotate(0deg) scale(1) skew(1deg);opacity:.2}
+    100%{-o-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}
+}
+@keyframes circle-fill-anim{
+    0%{transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}
+    50%{transform:rotate(0deg) scale(1) skew(1deg);opacity:.2}
+    100%{transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}
+}
