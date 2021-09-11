@@ -183,7 +183,7 @@ section .titu {
 .bt-comprar small {
     display: block;
     font-size: 16px;
-    margin-top: ;
+    /* margin-top: ; */
     font-weight: 300;
     display: block;
 }
@@ -344,7 +344,7 @@ section .titu {
 #bonus {
     padding: 0px 0;
     position: relative;
-    background: ##FFFFFF;
+    background: #FFFFFF;
 }
 
 #bonus b {
@@ -457,7 +457,7 @@ label{margin-bottom: 15px;}
 /* Tab */
 #tab {
     padding: 80px 0;
-    background:linear-gradient(to top, #7F00FFCF 30%, #E100FFE0),url('../img/bg-header.png') no-repeat fixed;
+    background:linear-gradient(to top, #7F00FFCF 30%, #E100FFE0),url('../img/bg-header.jpg') no-repeat fixed;
     background-size: cover;
     position: relative;
 }
