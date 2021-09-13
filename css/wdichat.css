@@ -32,11 +32,11 @@
     border-radius: 100%;
     border: 2px solid #118c3fa8;
     opacity: .1;
-    -webkit-animation: circle-fill-anim 1.2s infinite ease-in-out;
-    -moz-animation: circle-fill-anim 1.2s infinite ease-in-out;
-    -ms-animation: circle-fill-anim 1.2s infinite ease-in-out;
-    -o-animation: circle-fill-anim 1.2s infinite ease-in-out;
-    animation: circle-fill-anim 1.2s infinite ease-in-out;
+    -webkit-animation: circle-fill-anim 2.4s infinite ease-in-out!important;
+    -moz-animation: circle-fill-anim 2.4s infinite ease-in-out!important;
+    -ms-animation: circle-fill-anim 2.4s infinite ease-in-out!important;
+    -o-animation: circle-fill-anim 2.4s infinite ease-in-out!important;
+    animation: circle-fill-anim 2.4s infinite ease-in-out!important;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
